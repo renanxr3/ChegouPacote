@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.renaninfo.chegoupacote.LoginActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp" >
+
+        <Button
+            android:id="@+id/btnLoginDecisaoJaTenhoConta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="10dp"
+            android:onClick="btnLoginDecisaoJaTenhoContaOnClick"
+            android:text="CONTA EXISTENTE" />
+
+        <Button
+            android:id="@+id/btnLoginDecisaoCriarConta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btnLoginDecisaoJaTenhoConta"
+            android:onClick="btnLoginDecisaoCriarContaOnClick"
+            android:text="CRIAR CONTA" />
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Chegou Pacote?</string>
+    <string name="meus_pacotes">Meus Pacotes</string>
+    <string name="action_settings">Configurações</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_logout">Sair</string>
+    <string name="action_modo_admin">Modo Administrador</string>
+    <string name="action_modo_entregador">Modo Entregador</string>
+    <string name="action_modo_usuario">Modo Usuário</string>
+    <string name="entregas">Entregas</string>
+    <string name="admin">Administrador</string>
+    <string name="tem_certeza_atualizar_status_pacote">Deseja alterar o status do pacote?</string>
+    <string name="title_activity_unidade">Unidade</string>
+    <string name="title_activity_entregador_add">EntregadorAddActivity</string>
+    <string name="action_save">Salvar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tem_certeza_excluir_entregador">Tem certeza que deseja excluir o entregador?</string>
+    <string name="action_adicionar">Adicionar</string>
+    <string name="action_salvar">Salvar</string>
+    <string name="action_procurar_usuario">Procurar usuários</string>
+</resources>
